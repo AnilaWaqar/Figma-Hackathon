@@ -45,7 +45,7 @@ export default function Navbar() {
       {/* Third Section */}
       <div className="flex flex-col md:flex-row justify-between items-center px-12 sm:px-16 md:px-28 lg:px-40 py-4 gap-3">
         <ul className="flex gap-6 text-xs sm:text-sm md:text-base text-black">
-          <Link href={"http://localhost:3000/"}>Home    </Link>
+          <Link href={"/"}>Home    </Link>
           <Link href={"/Card"}>Shop    </Link>
           <Link href={"/Product"}>Product </Link>
           <Link href={"/Productpage"}>Pages   </Link>
