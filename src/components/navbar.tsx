@@ -13,7 +13,7 @@ export default function Navbar() {
         <div>
           <ul className="flex gap-6">
             <li>Eng</li>
-            <Link href={"./Faq"}>Faqs</Link>
+            <Link href={"/Faq"}>Faqs</Link>
             <li>Need Help</li>
           </ul>
         </div>
@@ -30,7 +30,7 @@ export default function Navbar() {
         <div>
           <ul className="flex items-center gap-6 text-xs sm:text-sm">
             <li>
-           <Link href={"./Card"}>  <FaCartShopping className="w-6 h-6 sm:w-8 sm:h-8 text-emerald-500" /></Link> 
+           <Link href={"/Card"}>  <FaCartShopping className="w-6 h-6 sm:w-8 sm:h-8 text-emerald-500" /></Link> 
             </li>
             <li>Cart</li>
             <li>
@@ -46,11 +46,11 @@ export default function Navbar() {
       <div className="flex flex-col md:flex-row justify-between items-center px-12 sm:px-16 md:px-28 lg:px-40 py-4 gap-3">
         <ul className="flex gap-6 text-xs sm:text-sm md:text-base text-black">
           <Link href={"http://localhost:3000/"}>Home    </Link>
-          <Link href={"./Card"}>Shop    </Link>
-          <Link href={"./Product"}>Product </Link>
-          <Link href={""}>Pages   </Link>
-          <Link href={"./About"}>About   </Link>  
-          <Link href={"./Contact"}>Contact  </Link>    
+          <Link href={"/Card"}>Shop    </Link>
+          <Link href={"/Product"}>Product </Link>
+          <Link href={"/Productpage"}>Pages   </Link>
+          <Link href={"/About"}>About   </Link>  
+          <Link href={"/Contact"}>Contact  </Link>    
         </ul>
         <h1 className="text-xs sm:text-sm md:text-base text-black">
           Contact: +92 3112387225
